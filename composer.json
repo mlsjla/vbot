@@ -1,4 +1,4 @@
-{
+    {
     "name": "hanson/vbot",
     "type": "library",
     "description": "高度自定义的微信机器人，能够实现群控制，自动回复，消息转发，防撤回，留言统计等功能",
@@ -18,7 +18,7 @@
     "bin": ["bin/vbot"],
     "require": {
         "guzzlehttp/guzzle": "^6.2",
-        "nesbot/carbon": "^1.21",
+        "nesbot/carbon": "^1.26.3 || ^2.0"
         "symfony/console": "3.*|4.*",
         "monolog/monolog": "^1.22",
         "aferrandini/phpqrcode": "^1.0",
